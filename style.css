@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+section{
+    height: 500px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    background-color:  #d64161;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* For header Section */
+.header {
+    background-image: url(images/header-bg.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width h3{
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.name{
+    font-size: 50px;
+    color: #d64161;
+    letter-spacing: 5px;
+}
+.half-width{
+    display: table-cell;
+    vertical-align: middle;
+    width: 42%;
+    height: auto;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 60%;  
+}
+/*css for biography section*/
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CSS FOR LATEST WORK SECTION*/
+.latest-work{
+    text-align: center;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one-third-width{
+    float: left;
+    width: 31%;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+.one-third-width img{
+    width: 100%;
+    box-shadow: 10px 10px 20px green;  
+}
+.one-third-width img:hover{
+    width: 100%;
+    box-shadow: 15px 15px 30px red;  
+    transition-duration: 1s;
+    border-radius: 10%;
+}
+/* CSS FOR FOOTER SECTION*/
+.footer{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.copy-right{
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    left: 40%;
+
+    
+}
+
